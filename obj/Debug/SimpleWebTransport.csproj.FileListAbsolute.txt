@@ -1,0 +1,2 @@
+C:\Users\myazo\board game\obj\Debug\SimpleWebTransport.csprojAssemblyReference.cache
+C:\Users\myazo\board game\obj\Debug\SimpleWebTransport.csproj.CoreCompileInputs.cache

@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6424743050905731948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6933460880928211382}
+  - component: {fileID: 3809851569991648261}
+  - component: {fileID: 6954149918646428054}
+  - component: {fileID: 985305787548821533}
+  - component: {fileID: 4041776594095385899}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6933460880928211382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6424743050905731948}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 991.65015, y: 476.6473, z: -464.71774}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3809851569991648261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6424743050905731948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 
+  hasSpawned: 0
+--- !u!114 &6954149918646428054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6424743050905731948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f74aedd71d9a4f55b3ce499326d45fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  clientAuthority: 1
+  localPositionSensitivity: 0.01
+  localRotationSensitivity: 0.01
+  localScaleSensitivity: 0.01
+  compressRotation: 0
+  interpolateScale: 1
+  syncScale: 1
+--- !u!114 &985305787548821533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6424743050905731948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1a51020ae3e75469f1c529640594f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  GameManager: {fileID: 0}
+  Fire: {fileID: 8204331195164889476, guid: a953a8fcc1f55f848bfaf98dba8abffc, type: 3}
+  Earth: {fileID: 9039009210173022757, guid: c8998bda7a3d2ab4fa900ca906869cc0, type: 3}
+  Air: {fileID: 9039009210173022757, guid: 176d51cece837964ea08ca48d3151fce, type: 3}
+  Water: {fileID: 9039009210173022757, guid: c06addf07c948f14abe11639788ee8d8, type: 3}
+  Sun: {fileID: 9039009210173022757, guid: bdd338843e9fcac449e898742188ccbe, type: 3}
+  Moon: {fileID: 9039009210173022757, guid: 8d2a3c2f4828573469dcc8ff0c73619f, type: 3}
+  Spirit: {fileID: 9039009210173022757, guid: b2e4e80476fa5934ba3fb057c225b54c, type: 3}
+  Blood: {fileID: 9039009210173022757, guid: 7cd6cbd357d948e4c8eda523adc86846, type: 3}
+  Lightning: {fileID: 9039009210173022757, guid: 15b90a89bf780b241b9649d72261b566, type: 3}
+  PlayerArea: {fileID: 0}
+  EnemyArea: {fileID: 0}
+  AvailableDropZones: []
+  UnavailableDropZones: []
+  isMyTurn: 0
+  Deck: {fileID: 8282584967570099578, guid: 1ffa4a25e5417bd4fbfa32801913ce6b, type: 3}
+  D00: {fileID: 0}
+  D01: {fileID: 0}
+  D02: {fileID: 0}
+  D10: {fileID: 0}
+  D11: {fileID: 0}
+  D12: {fileID: 0}
+  D20: {fileID: 0}
+  D21: {fileID: 0}
+  D22: {fileID: 0}
+  elmnt: 
+--- !u!114 &4041776594095385899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6424743050905731948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc23b002f0efb544866febb789fc64a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  ReadyClients: 0

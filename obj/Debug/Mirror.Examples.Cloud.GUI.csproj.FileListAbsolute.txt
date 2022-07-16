@@ -1,0 +1,2 @@
+C:\Users\myazo\board game\obj\Debug\Mirror.Examples.Cloud.GUI.csprojAssemblyReference.cache
+C:\Users\myazo\board game\obj\Debug\Mirror.Examples.Cloud.GUI.csproj.CoreCompileInputs.cache

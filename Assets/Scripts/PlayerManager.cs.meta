@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: cc1a51020ae3e75469f1c529640594f8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - GameManager: {instanceID: 0}
+  - Fire: {instanceID: 0}
+  - Earth: {instanceID: 0}
+  - Air: {instanceID: 0}
+  - Water: {instanceID: 0}
+  - Sun: {instanceID: 0}
+  - Moon: {instanceID: 0}
+  - Spirit: {instanceID: 0}
+  - Blood: {instanceID: 0}
+  - Lightning: {instanceID: 0}
+  - PlayerArea: {instanceID: 0}
+  - EnemyArea: {instanceID: 0}
+  - Deck: {instanceID: 0}
+  - D00: {instanceID: 0}
+  - D01: {instanceID: 0}
+  - D02: {instanceID: 0}
+  - D10: {instanceID: 0}
+  - D11: {instanceID: 0}
+  - D12: {instanceID: 0}
+  - D20: {instanceID: 0}
+  - D21: {instanceID: 0}
+  - D22: {instanceID: 0}
+  - D33: {fileID: 6094961508649851044, guid: af1f78e22f4f84b40a386459b3458788, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
